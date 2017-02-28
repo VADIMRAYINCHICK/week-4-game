@@ -16,7 +16,7 @@ $(document).ready(function() {
 
       var audioElement1 = document.createElement("audio");
       audioElement1.setAttribute("src", "assets/12.mp3");
-      audioElement1.volume = 0.4;
+      audioElement1.volume = 0.2;
 
  var audioElement2 = document.createElement("audio");
       audioElement2.setAttribute("src", "assets/14w.mp3");
