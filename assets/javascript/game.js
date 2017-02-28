@@ -16,8 +16,18 @@ $(document).ready(function() {
 
       var audioElement1 = document.createElement("audio");
       audioElement1.setAttribute("src", "assets/12.mp3");
+      audioElement1.volume = 0.4;
+
+ var audioElement2 = document.createElement("audio");
+      audioElement2.setAttribute("src", "assets/14w.mp3");
+
+       var audioElement3 = document.createElement("audio");
+      audioElement3.setAttribute("src", "assets/14lo.mp3");
 
 audioElement1.play();
+
+
+
   
   function randomNumCrystals() {
    
@@ -66,6 +76,7 @@ audioElement1.play();
       $("#results").append($("<p>").text("You won!!"));
       setGame();
       renderMatchingNumber();
+      audioElement2.play();
     }
 
     else if (didUserWin === false) {
@@ -73,6 +84,7 @@ audioElement1.play();
       $("#results").append($("<p>").text("You lost!!"));
       setGame();
       renderMatchingNumber();
+       audioElement3.play();
     }
 
 
