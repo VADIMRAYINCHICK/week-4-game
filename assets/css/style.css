@@ -1,0 +1,113 @@
+body {
+  background-image: url("../image/back.png");
+
+ 
+  
+}
+
+
+#container {
+ 
+  margin-left: auto;
+     margin-right: auto;
+
+     width: 550px;
+
+}
+
+#tag {
+   height: 60px;
+  margin-bottom: 20px;
+  padding: 20px;
+  font-size: 55px;
+border-radius: 30px;
+  color: #3e3c3a;
+  text-align: center;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #faf3e6;
+}
+
+
+
+#computerGuess {
+  
+  height: 60px;
+  margin-bottom: 20px;
+  padding: 20px;
+  font-size: 55px;
+border-radius: 30px;
+  color: #3e3c3a;
+  text-align: center;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #faf3e6;
+}
+
+#score-area {
+  height: 60px;
+  margin-bottom: 20px;
+  padding: 20px;
+  font-size: 55px;
+  border-radius: 30px;
+  color: #3e3c3a;
+  text-align: center;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #faf3e6;
+  clear: both;
+}
+
+#score-title {
+  height: 40px;
+  margin-bottom: 10px;
+  padding: 10px 10px 0 10px;
+  border-radius: 30px;
+  font-size: 25px;
+
+  color: #3e3c3a;
+  
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #faf3e6;
+  clear: both;
+}
+}
+
+.crystals-button {
+  display: inline;
+  margin-left: 20px;
+}
+
+
+.crystal-img {
+  width: 90px;
+  height: 90px;
+  cursor: pointer;
+  float: left;
+  background-color: white;
+  border: solid;
+  margin-bottom: 20px; 
+  margin-left: 30px; 
+  border-color: #3e3c3a;
+}
+
+
+
+#results {
+  height: 140px;
+  margin-bottom: 20px;
+  padding: 10px;
+  font-size: 20px;
+border-radius: 30px;
+  color: #3e3c3a;
+  text-align: center;
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #faf3e6;
+}
